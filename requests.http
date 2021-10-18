@@ -1,0 +1,21 @@
+POST http://localhost:3000/songs.json
+Content-Type: application/json
+
+{
+  "title": "q",
+  "album": "w",
+  "artist": "e",
+  "year": 1
+}
+
+###
+DELETE http://localhost:3000/songs
+
+###
+PATCH http://localhost:3000/songs/2.json
+Content-Type: application/json
+
+{
+  "title": "a",
+  "album": "d"
+}
